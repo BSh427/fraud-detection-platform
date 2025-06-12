@@ -1,0 +1,18 @@
+# Ignore Python virtual envs
+**/venv/
+**/__pycache__/
+**/*.pyc
+
+# Ignore model weights and logs if large
+**/models/*.h5
+**/*.log
+
+# Ignore node_modules (if used)
+**/node_modules/
+
+# IntelliJ / VSCode
+.idea/
+.vscode/
+
+# OS Files
+.DS_Store
