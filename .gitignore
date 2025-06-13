@@ -1,18 +1,50 @@
-# Ignore Python virtual envs
-**/venv/
-**/__pycache__/
-**/*.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pkl
+*.h5
 
-# Ignore model weights and logs if large
-**/models/*.h5
-**/*.log
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
 
-# Ignore node_modules (if used)
-**/node_modules/
+# Python virtual environments
+env/
+venv/
+.tfenv/
+.venv/
+.Python
 
-# IntelliJ / VSCode
-.idea/
-.vscode/
-
-# OS Files
+# macOS system files
 .DS_Store
+
+# Logs and temp
+*.log
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
+
+# OS junk
+Thumbs.db
+
+# Java build
+target/
+*.class
+*.jar
+*.war
+
+# Maven
+.mvn/
+.settings/
+dependency-reduced-pom.xml
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+*.env
+
+# VS Code Workspace
+*.code-workspace
